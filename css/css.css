@@ -1,0 +1,101 @@
+.first-header{
+    text-align: center;
+
+}
+
+.zoom:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.scroll {
+    background-color: #eaeaea;
+
+    height: 1000px;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    text-align: center;
+    width: 200px;
+}
+
+.form {
+    background-color: #eaeaea;
+
+    height: 1000px;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    text-align: left;
+    width: 200px;
+    padding-left: 20px;
+}
+
+.paddingtop  {
+margin-top: 70px;
+}
+
+
+.product{
+    background-color: rgba(176, 185, 255, 0.98);
+    padding: 10px;
+    margin-bottom: 5px;
+    border: steelblue;
+    border-width: 2px;
+    border-style: solid;
+
+}
+
+
+.sticky{
+    position: fixed;
+    left :20px;
+    top :50px;
+
+
+}
+
+.paragraph{
+    border: steelblue;
+    border-width: 4px;
+    border-style: double;
+    padding: 10px;
+}
+
+.mem{
+    border: steelblue;
+    border-width: 4px;
+    border-style: double;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.scrolling-box {
+    background-color: #eaeaea;
+    display: block;
+    height: 200px;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    text-align: center;
+
+}
+
+
+.nj{
+
+    float: right;
+    margin: 20px;
+
+}
+
+.width{
+    width: 18rem;
+}
+
+
+.progress{
+    -webkit-appearance: none;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+
+}
